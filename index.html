@@ -1,28 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Static Website with Parallax Effect</title>
+  <title>Digital Rupture</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <!-- Add header section -->
   <header>
-    <h1>Welcome to My Website</h1>
-    <p>This is a sample static webpage with a parallax effect.</p>
+    <h1>Digital Rupture</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
   <!-- Add first parallax section -->
   <div class="parallax" id="parallax-1">
     <div class="content">
-      <h2>Section 1</h2>
-      <p>This is the first parallax section of the website.</p>
+      <h2>About Digital Rupture</h2>
+      <p>Digital Rupture is a company dedicated to helping businesses navigate the ever-changing digital landscape. Our team of experts provides cutting-edge solutions for digital marketing, web development, and technology strategy.</p>
     </div>
   </div>
   <!-- Add second parallax section -->
   <div class="parallax" id="parallax-2">
     <div class="content">
-      <h2>Section 2</h2>
-      <p>This is the second parallax section of the website.</p>
+      <h2>Our Services</h2>
+      <p>Some of the services that Digital Rupture offers include:</p>
+      <ul>
+        <li>Digital Marketing</li>
+        <li>Web Development</li>
+        <li>Technology Strategy</li>
+      </ul>
     </div>
   </div>
+  <!-- Add contact section -->
+  <section id="contact">
+    <h2>Get in Touch with Digital Rupture</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
 </body>
 </html>
